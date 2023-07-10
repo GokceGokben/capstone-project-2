@@ -1,0 +1,102 @@
+.gradient-background {
+    z-index: 1;
+    background: linear-gradient(-60deg, #EAC7C7, #A0C3D2, #F7F5EB);
+    background-size: 180% 180%;
+ 
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
+  .img{
+    border-radius: 50%;
+  }
+  #profile h1{
+font-family: 'Bodoni Moda', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Merienda', cursive;
+  }
+  #title .hi{
+    font-family: 'Inter', sans-serif;
+font-family: 'Lexend', sans-serif;
+  }
+  .talents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: nowrap;
+    gap: 3rem;
+  }
+  .computer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top,#cdcb5f ,#ebaa98);
+    background-image: -moz-linear-gradient(top,#cdcb5f , #ebaa98);
+    background-image: -ms-linear-gradient(top,#cdcb5f , #ebaa98);
+    background-image: -o-linear-gradient(top,#cdcb5f , #ebaa98);
+    background-image: linear-gradient(to bottom,#cdcb5f , #ebaa98);
+    text-decoration: none;
+
+  }
+  .nav{
+    gap: 1rem;
+  }
+  .stext{
+    font-family: 'Bodoni Moda', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Pacifico', cursive;
+  }
+  #skills h2{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Indie Flower', cursive;
+  }
+
+.m{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+.lead{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+.contact p{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+.tell{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
